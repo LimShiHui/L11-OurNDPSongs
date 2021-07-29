@@ -57,6 +57,7 @@ public class CustomAdapter extends ArrayAdapter {
             ivNew.setVisibility(View.INVISIBLE);
         }
 
+        rbStar.setEnabled(false);
         float stars = currentSong.getStars();
         rbStar.setRating(stars);
 
